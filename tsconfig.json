@@ -11,6 +11,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    /* DUM: para cambiar las rutas relativas */
+    "paths": {
+      "@env": ["environments/environment"],
+      "@shared/*": ["app/shared/*"],
+      "@core/*": ["app/core/*"],
+      "@/*": ["app/*"]
+    },
     "typeRoots": [
       "node_modules/@types"
     ],
